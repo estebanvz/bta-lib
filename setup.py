@@ -9,14 +9,14 @@ import os.path
 import setuptools
 
 # Some settings
-AUTHOR = 'Daniel Rodriguez'
+AUTHOR = 'Esteban Vilca'
 
-PACKAGENAME = 'btalib'
-PYPINAME = 'bta-lib'
+PACKAGENAME = 'etalib'
+PYPINAME = 'eta-lib'
 
 GITHUB_BASE = 'https://github.com'
-GITHUB_USER = 'mementum'
-GITHUB_NAME = 'bta-lib'
+GITHUB_USER = 'estebanvz'
+GITHUB_NAME = 'eta-lib'
 
 LICENSE = 'MIT'
 
@@ -26,9 +26,9 @@ KEYWORDS = ['trading', 'development', 'backtesting', 'algotrading',
 REQUIREMENTS = ['pandas']
 PYTHON_VERSION = '>=3.6'
 
-DESCRIPTION = 'bta-lib technical analysis library'
+DESCRIPTION = 'eta-lib technical analysis library'
 
-README = 'README.rst'
+README = 'README.md'
 VERSION_PY = 'version.py'
 
 
@@ -73,7 +73,7 @@ setuptools.setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 3 - Alpha',
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
