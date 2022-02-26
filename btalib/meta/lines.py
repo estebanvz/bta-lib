@@ -331,7 +331,7 @@ def multifunc_op(name, parg=None, propertize=False):
             if not beta:
                 beta = 1.0 - alpha
 
-            def _sp_lfilter(x):
+            def _sp_lfilter(x, *args):
                 # Initial conditions "ic" can be used for the calculation, the
                 # next two lines detail that. A simple scaling of x[0] achieves
                 # the same in the 1-d case
